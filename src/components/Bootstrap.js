@@ -11,10 +11,9 @@ export default class Bootstrap extends Component {
       
       <Jumbotron fluid>
      
-        <h1>Fluid jumbotron</h1>
+        <h1>Remember which image you selected</h1>
         <p>
-          This is a modified jumbotron that occupies the entire horizontal space of
-          its parent.
+          <strong>Gameplay: </strong>There are twelve (12) different images for you to select. You must select each image <strong>once</strong>. Once you select each image, the game will end. If you choose a previously selected image, you lose and the game will end. Best of luck.
         </p>
     </Jumbotron>
     </div>

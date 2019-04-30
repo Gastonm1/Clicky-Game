@@ -14,7 +14,7 @@ export default class Counter extends Component {
     return (
       <div className="card text-center">
         <div className="card-header bg-primary text-white">
-          Click Counter!
+          Click an Image of a Food Chain!
         </div>
         <div className="card-body">
           <p className="card-text">Click Count: {this.state.count}</p>

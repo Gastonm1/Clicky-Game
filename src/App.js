@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Counter from "./components/Counter";
 import Bootstrap from "./components/Bootstrap";
+import Body from "./components/Body"
 
 //Counter State
 // state = {
@@ -20,6 +21,7 @@ class App extends Component {
         <Bootstrap />
         <Header />
         <Counter />
+        <Body />
       </div>
     );
   }
