@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 // import images from '../images';
 
+const images = {
+  mcDonalds: require("../images/McDs.jpeg")
+}
+
 export default class Body extends Component {
   render() {
     return (
       <div>
  <div class="flex-container">
-  <div><img src="" alt="McDonalds"></img></div>
+  <div><img src={images.mcDonalds} alt="McDonalds"></img></div>
   <div>2</div>
   <div>3</div>
   <div>4</div>
