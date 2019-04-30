@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export default class Header extends Component {
   render() {
@@ -6,6 +6,6 @@ export default class Header extends Component {
       <div>
         <h1>This is a game of memory</h1>
       </div>
-    )
+    );
   }
 }
